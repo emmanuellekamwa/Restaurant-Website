@@ -1,0 +1,171 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#content {
+  background-color: black;
+}
+
+.info-div,
+.menu-div,
+.contacts-div {
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation-name: fadeEffect;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.info-div {
+  background-image: url("../images/exotic.jpg");
+}
+
+.info-div > h1 {
+  font-size: 80px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 0 4px 1px rgba(150, 0, 0), 0 10px 50px rgba(255, 0, 0);
+  color: black;
+}
+
+.info-div > p {
+  letter-spacing: 0.7em;
+  word-spacing: 1em;
+  font-weight: bold;
+  font-size: 19px;
+  color: white;
+}
+
+nav {
+  background-color: teal;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav > .tab-button {
+  padding: 8px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  color: white;
+}
+
+nav button:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  letter-spacing: 2px;
+}
+
+button.active {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.menu-div {
+  background-image: url("../images/exotic.jpg");
+}
+
+.menu-div,
+.contacts-div {
+  align-items: center;
+}
+
+.menu-info-div,
+.contacts-info-div {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 35px;
+  width: 50%;
+  max-height: 70vh;
+  overflow: auto;
+  border-radius: 7px;
+}
+
+.menu-info-div::-webkit-scrollbar {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 10px;
+}
+
+.menu-info-div::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 25px;
+}
+
+.menu-info-div > h1 {
+  text-shadow: 0 4px 1px rgba(150, 0, 0), 0 10px 50px rgba(255, 0, 0);
+  padding: 20px 0;
+  letter-spacing: 0.2em;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.menu-info-div > h2 {
+  text-shadow: 0 4px 1px rgba(150, 0, 0), 0 10px 50px rgba(255, 0, 0);
+  text-decoration: underline;
+  padding: 12px 0;
+  letter-spacing: 0.2em;
+  font-size: 28px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 6px 0;
+  font-size: 20px;
+}
+
+li > span {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contacts-div {
+  background-image: url("../images/exotic.jpg");
+}
+
+.contacts-div > h1 {
+  text-shadow: 0 4px 1px rgba(150, 0, 0), 0 10px 50px rgba(255, 0, 0);
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.contacts-info-div {
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.contacts-info-div > span {
+  display: block;
+  padding: 15px 0;
+  font-size: 25px;
+}
+
+.contacts-info-div > span > i {
+  margin-right: 20px;
+}
