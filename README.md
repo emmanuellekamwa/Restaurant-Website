@@ -13,7 +13,7 @@ A simple restaurant page built with Javascript
 
 ## Live Demo
 
-[Live demo link](emmanuellekamwa.github.io/Restaurant-Website/dist/index.html)
+[Live demo link](https://silly-stonebraker-a56fff.netlify.app/)
 
 ### Installation
 
