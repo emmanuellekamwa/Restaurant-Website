@@ -11,6 +11,10 @@ A simple restaurant page built with Javascript
 -   CSS3
 -   VScode
 
+## Live Demo
+
+[Live demo link](emmanuellekamwa.github.io/Restaurant-Website/dist/index.html)
+
 ### Installation
 
 To run the project locally, please run the following commands on your terminal:
