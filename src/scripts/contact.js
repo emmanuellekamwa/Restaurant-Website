@@ -1,15 +1,11 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable operator-linebreak */
-/* eslint-disable linebreak-style */
-/* eslint-disable quotes */
-/* eslint-disable linebreak-style */
-/* eslint-disable indent */
 const addContactsContent = () => {
     const contactsContent = document.createElement("div");
 
     contactsContent.classList.add("contacts-info-div");
-    contactsContent.innerHTML =
-        '<span><i class="fas fa-envelope"></i>emmanuellekamwa@gmail.com</span><span><i class="fab fa-twitter"></i>@AlixKamwa</span><span><i class="fab fa-github"></i>emmanuellekamwa</span>';
+
+    const li = document.createElement("li");
+    li.textContent = "Email: emmanuellekamwa@gmail.com";
+    contactsContent.appendChild(li);
 
     return contactsContent;
 };

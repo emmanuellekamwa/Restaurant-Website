@@ -1,7 +1,3 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable indent */
-/* eslint-disable linebreak-style */
-/* eslint-disable quotes */
 import "../style.css";
 import loadInitialPage from "./loadingpage";
 import createMenuDiv from "./menu";

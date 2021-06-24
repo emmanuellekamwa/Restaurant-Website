@@ -1,8 +1,3 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable indent */
-/* eslint-disable linebreak-style */
-/* eslint-disable quotes */
-/* eslint-disable linebreak-style */
 const loadInitialPage = (title, myCaption = "") => {
     const infoDiv = document.createElement("div");
     infoDiv.classList.add("info-div");
