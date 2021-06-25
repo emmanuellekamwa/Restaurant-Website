@@ -11,6 +11,10 @@ A simple restaurant page built with Javascript
 -   CSS3
 -   VScode
 
+## Live Demo
+
+[Live demo link](https://silly-stonebraker-a56fff.netlify.app/)
+
 ### Installation
 
 To run the project locally, please run the following commands on your terminal:
